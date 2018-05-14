@@ -1,0 +1,21 @@
+{
+  "name": "ble_logger",
+  "version": "1.0.0",
+  "description": "sense ble beacon and post data to database",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "keywords": [],
+  "author": "Masahiro Rikiso",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "date-utils": "^1.2.21",
+    "decimal.js": "^10.0.0",
+    "noble": "^1.9.1"
+  },
+  "devDependencies": {
+    "json-server": "^0.12.2"
+  }
+}

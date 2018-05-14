@@ -1,0 +1,14 @@
+{
+  "programming": [{
+      "id": 1,
+      "lang": "Python",
+      "webFramework": "Djangp"
+    },
+    {
+      "id": 2,
+      "lang": "Javascript",
+      "webFramework": "Express"
+    }
+  ],
+  "blesensor": []
+}
