@@ -15,5 +15,5 @@ json-server --watch db.json
 ```
 
 ```bash
-npm install
+npm start
 ```
