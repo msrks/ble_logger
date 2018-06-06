@@ -8,7 +8,7 @@ const sensorInterval = 5000; // 5000ms
 
 const logBleSensor = peripheral => {
   const serviceData = peripheral.advertisement.serviceData;
-  if (serviceData && serviceData.length) {
+  if (serviceData && serviceData.length && serviceData[0].uuid === 'ffe2') {
     const s = serviceData[0].data.toString('hex');
     const now = new Date().toFormat("YYYYMMDDHH24MISS");
     const sensorData = {
